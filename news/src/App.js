@@ -45,7 +45,7 @@ export default class App extends Component
         height='3px'
         color='#f11946'
         progress={this.state.progress}/>
-          <Navbar prog={this.prog} mode={this.mode} design={this.state.design}/>
+          <Navbar mode={this.mode} design={this.state.design}/>
           <Switch>
             <Route path="/home">
               <News prog={this.prog} design={this.state.design} key="general" pagesize="6" country="in" category="general"/>
