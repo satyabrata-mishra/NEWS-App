@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+h2{
+    text-align: center;
+    padding-top: 10vh;
+    font-family: 'Ubuntu', sans-serif;
+}
+.dis{
+    display: inline-table;
+}
+.prev{
+    padding: 1vh 1vw;
+    background-color: rgb(14, 13, 13);
+    border: none;
+    outline: none;
+    margin-left: 10vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    color: whitesmoke;
+}
+.nxt{
+    padding: 1vh 1vw;
+    background-color: rgb(14, 13, 13);
+    border: none;
+    outline: none;
+    margin-left: 65vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    color: whitesmoke;
+}
